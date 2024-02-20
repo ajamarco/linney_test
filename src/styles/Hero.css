@@ -1,0 +1,153 @@
+.hero-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 180px;
+  gap: 48px;
+  height: 508px;
+}
+
+.hero-content_element {
+  color: white;
+  width: 50%;
+  justify-content: center;
+}
+
+.hero-content_element h1 {
+  font-size: 48px;
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  color: #dfdfdf;
+}
+
+.hero-content_description {
+  font-size: 14px;
+  text-align: left;
+  font-family: "Inter";
+  line-height: 20px;
+  color: #dfdfdf;
+}
+
+.signup_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  gap: 24px;
+
+  width: 506px;
+  height: 460px;
+
+  background: #313131;
+  box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* google sign up - div */
+.btn-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 2px;
+  gap: 16px;
+
+  width: 360px;
+  height: 56px;
+
+  background: #02b159;
+  border-radius: 4px;
+}
+
+.btn-primary-icon {
+  height: 24px;
+  width: 24px;
+  background: url("../assets/google_logo.png");
+}
+
+.btn-primary-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fefefe;
+}
+.form_divider {
+  width: 360px;
+  height: 0px;
+
+  border: 1px solid #242424;
+}
+
+/* Sign Up - GitHub */
+.btn-secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 2px;
+  gap: 16px;
+
+  width: 360px;
+  height: 56px;
+
+  background: #242424;
+  border-radius: 4px;
+}
+
+.btn-secondary-icon-github {
+  width: 24px;
+  height: 24px;
+
+  background: url("../assets/github_logo.png");
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.btn-secondary-text {
+  width: 56px;
+  height: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #fefefe;
+}
+
+/* Email logo */
+.btn-secondary-icon-email {
+  width: 24px;
+  height: 24px;
+
+  background: url("../assets/email_logo.png");
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* Form terms and conditions */
+.form_tc {
+  width: 378px;
+  height: 68px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}

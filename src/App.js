@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Test from "./components/Test";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Hero />
       <Footer />
     </div>
   );
