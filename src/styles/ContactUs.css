@@ -1,0 +1,84 @@
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 24px;
+  gap: 48px;
+
+  height: 416px;
+
+  background: #313131;
+}
+
+.contact-us_text_container {
+  width: 708px;
+  height: 104px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 39px;
+  text-align: center;
+  color: #dfdfdf;
+}
+
+.contact-us_text_container h2 {
+  font-size: 32px;
+}
+
+.contact-us_text_container p {
+  font-size: 16px;
+}
+
+.contact-us_buttons {
+  /* Actions */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 64px;
+
+  width: 547px;
+  height: 72px;
+}
+
+.contact-us_btn_create_account {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 48px;
+  gap: 10px;
+
+  background: #02b159;
+  border-radius: 4px;
+}
+
+.contact-us_btn_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fefefe;
+}
+
+.contact-us_btn_contact_sales {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 48px;
+  gap: 10px;
+
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+}

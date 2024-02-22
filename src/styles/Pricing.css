@@ -1,0 +1,50 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 24px;
+  gap: 48px;
+
+  height: 889.45px;
+
+  background: #292929;
+}
+
+.pricing-text {
+  width: 784px;
+  height: 182px;
+
+  font-family: "Inter";
+  font-style: normal;
+
+  color: #dfdfdf;
+}
+
+.pricing-text_title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 30px;
+}
+
+.pricing-text_body {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.pricing-cards {
+  /* Pricing Cards */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 64px;
+
+  width: 1063px;
+  height: 563.45px;
+}

@@ -1,0 +1,82 @@
+.pricing_card {
+  /* Card 1 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 400px;
+  /* height: 531.45px; */
+  height: 563.45px;
+
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.25));
+}
+
+.pricing_card-price {
+  padding: 64px;
+  gap: 10px;
+
+  width: 305px;
+  height: 194px;
+
+  background: #313131;
+}
+
+.pricing_card-price_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* background: linear-gradient(90deg, #ff9b9b -20.37%, #fb3434 113.89%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* width: 108px; */
+  /* height: 66px; */
+}
+.pricing_card-img {
+  width: 305px;
+  height: 65.45px;
+
+  background: url("../assets/waves.png");
+
+  /* Inside auto layout
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0; */
+}
+
+.pricing_card-features {
+  /* Background Dark */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 56px;
+  gap: 10px;
+
+  width: 305px;
+  height: 272px;
+
+  background: #242424;
+}
+
+.pricing_card-features p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
