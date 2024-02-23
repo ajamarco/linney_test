@@ -9,7 +9,7 @@ const FeatureCard = ({ title, paragraphs, img }) => {
           <p key={index}>{paragraph}</p>
         ))}
       </div>
-      <div className="feature_card_img" style={{ backgroundImage: `url(${img})` }} />
+      <div className="feature_card_img" style={{ backgroundImage: `url(${img})`, backgroundPosition: "center", backgroundSize: "cover" }}></div>
     </div>
   );
 };

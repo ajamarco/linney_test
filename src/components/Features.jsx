@@ -13,7 +13,7 @@ const Features = () => {
         <h1 className="pricing-text_title">Features</h1>
         <p className="pricing-text_body">From edge locations world wide, to unparalleled security and DDOS protection, we’ve got you covered.</p>
       </div>
-      <div className="feature_row">
+      <div className="features">
         <FeatureCard
           title={"EDGE NETWORK"}
           paragraphs={[

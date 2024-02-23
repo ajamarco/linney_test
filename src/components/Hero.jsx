@@ -5,7 +5,10 @@ const Hero = () => {
   return (
     <section className="hero-container">
       <div className="hero-content_element">
-        <h1>Cloud Computing Developers Trust</h1>
+        <h1>
+          Cloud Computing <br />
+          Developers Trust
+        </h1>
         <p className="hero-content_description">
           Build, run, and secure your cloud workloads on SuperNet Connected Cloud, a massively distributed edge and cloud platform. Sign up today or contact us to learn more.
         </p>

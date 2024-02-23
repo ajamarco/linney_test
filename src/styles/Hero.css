@@ -1,22 +1,22 @@
 .hero-container {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 180px;
+  padding: 200px;
   gap: 48px;
   height: 508px;
 }
 
 .hero-content_element {
   color: white;
-  width: 50%;
+  /* width: 50%; */
   justify-content: center;
 }
 
 .hero-content_element h1 {
-  font-size: 48px;
+  font-size: 60px;
   text-align: left;
   font-family: "Inter";
   font-style: normal;
@@ -26,10 +26,10 @@
 }
 
 .hero-content_description {
-  font-size: 14px;
+  font-size: 20px;
   text-align: left;
   font-family: "Inter";
-  line-height: 20px;
+  line-height: 25px;
   color: #dfdfdf;
 }
 
@@ -41,7 +41,7 @@
   padding: 64px;
   gap: 24px;
 
-  width: 506px;
+  /* width: 506px; */
   height: 460px;
 
   background: #313131;
@@ -58,7 +58,7 @@
   padding: 16px 2px;
   gap: 16px;
 
-  width: 360px;
+  width: 100%;
   height: 56px;
 
   background: #02b159;
@@ -95,7 +95,7 @@
   padding: 16px 2px;
   gap: 16px;
 
-  width: 360px;
+  width: 100%;
   height: 56px;
 
   background: #242424;
@@ -137,9 +137,6 @@
 
 /* Form terms and conditions */
 .form_tc {
-  width: 378px;
-  height: 68px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -150,4 +147,45 @@
   text-align: center;
 
   color: #ffffff;
+}
+
+/* create a media query for tables - max width 768px */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    padding: 100px;
+    height: 100%;
+  }
+
+  .hero-content_element {
+    width: 100%;
+  }
+
+  .hero-content_element h1,
+  .hero-content_description {
+    text-align: center;
+  }
+
+  .signup_form {
+    width: 100%;
+  }
+}
+
+/* create a media query for mobile - max width 480px */
+@media (max-width: 480px) {
+  .hero-container {
+    padding: 50px;
+  }
+
+  .hero-content_element h1 {
+    font-size: 40px;
+  }
+
+  .hero-content_description {
+    font-size: 16px;
+  }
+
+  .signup_form {
+    padding: 32px;
+  }
 }

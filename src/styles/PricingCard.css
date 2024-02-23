@@ -1,25 +1,18 @@
 .pricing_card {
-  /* Card 1 */
-
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0px;
 
-  width: 400px;
-  /* height: 531.45px; */
-  height: 563.45px;
-
   filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.25));
 }
 
 .pricing_card-price {
-  padding: 64px;
+  padding: 64px 10px;
   gap: 10px;
 
-  width: 305px;
+  width: 100%;
   height: 194px;
 
   background: #313131;
@@ -31,7 +24,6 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
-  display: flex;
   align-items: center;
   text-align: center;
 
@@ -43,9 +35,10 @@
   /* height: 66px; */
 }
 .pricing_card-img {
-  width: 305px;
+  width: 100%;
   height: 65.45px;
-
+  background-repeat: no-repeat;
+  background-size: cover;
   background: url("../assets/waves.png");
 
   /* Inside auto layout
@@ -66,7 +59,7 @@
   padding: 64px 56px;
   gap: 10px;
 
-  width: 305px;
+  width: 100%;
   height: 272px;
 
   background: #242424;
@@ -79,4 +72,71 @@
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;
+  text-align: center;
+}
+
+/* create a nedia query for tables - max width 768px */
+@media (max-width: 768px) {
+  .pricing_card {
+    padding: 0px;
+  }
+  .pricing_card-price {
+    padding: 32px;
+    gap: 10px;
+
+    width: 100%;
+    height: 194px;
+  }
+  .pricing_card-price_text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .pricing_card-img {
+    width: 100%;
+    height: 65.45px;
+  }
+  .pricing_card-features {
+    padding: 32px 32px;
+    gap: 10px;
+
+    width: 100%;
+    height: 272px;
+  }
+  .pricing_card-features p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+/* create a nedia query for mobile - max width 480px */
+@media (max-width: 480px) {
+  .pricing_card {
+    padding: 0px;
+  }
+  .pricing_card-price {
+    padding: 32px;
+    gap: 10px;
+
+    width: 100%;
+    height: 194px;
+  }
+  .pricing_card-price_text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .pricing_card-img {
+    width: 100%;
+    height: 65.45px;
+  }
+  .pricing_card-features {
+    padding: 32px 32px;
+    gap: 10px;
+
+    width: 100%;
+    height: 272px;
+  }
+  .pricing_card-features p {
+    font-size: 16px;
+    line-height: 19px;
+  }
 }
