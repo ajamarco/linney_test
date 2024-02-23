@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #311f1f;
+        }
+
+        .feature_row {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 30px;
+            text-align: center;
+            gap: 10px;
+        }
+
+        .feature_card {
+            filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.1));
+            padding: 10px;
+            flex: 49%;
+            display: flex;
+            /* set the children do be on row */
+            flex-direction: row;
+            border: 1px solid #e0e0e0;
+        }
+
+        .feature_card_text {
+            flex: 49%;
+            color: white;
+        }
+
+        h2,
+        p {
+            font-family: "Inter";
+            font-style: normal;
+            text-align: left;
+            color: #dfdfdf;
+        }
+
+        .feature_card_text h2 {
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .feature_card_text p {
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .feature_card_img {
+            flex: 49%;
+            background: url("./src/assets/img_edge_network.png");
+            border-radius: 0px 8px 8px 0px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div className="feature_row">
+        <div className="feature_card">
+            <div className="feature_card_text">
+                <h2>EDGE NETWORK</h2>
+                <p>something something</p>
+            </div>
+            <div className="feature_card_img"> </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.network_img {
+  /* Edge Network Map */
+
+  width: 1361px;
+  height: 771px;
+
+  background: url("../assets/edge_network.png") no-repeat;
+
+  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+}
