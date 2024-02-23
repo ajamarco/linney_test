@@ -10,7 +10,15 @@ const Hero = () => {
           Developers Trust
         </h1>
         <p className="hero-content_description">
-          Build, run, and secure your cloud workloads on SuperNet Connected Cloud, a massively distributed edge and cloud platform. Sign up today or contact us to learn more.
+          Build, run, and secure your cloud workloads on <b>SuperNet Connected Cloud</b>, a massively distributed edge and cloud platform.
+          <a href="#">
+            <span className="link_span">Sign up</span>
+          </a>{" "}
+          today or
+          <a href="#">
+            <span className="link_span">contact us</span>
+          </a>{" "}
+          to learn more.
         </p>
       </div>
       <div className="hero-content_element signup_form">
@@ -28,8 +36,19 @@ const Hero = () => {
           <p className="btn-secondary-text">Email</p>
         </div>
         <p className="form_tc">
-          By providing your email address or using a single sign-on provider to create an account, you agree to our Terms of Service and that you have reviewed our Privacy Policy
-          and Cookie Policy.
+          By providing your email address or using a single sign-on provider to create an account, you agree to our
+          <a href="#">
+            <span className="link_span"> Terms of Service </span>
+          </a>
+          and that you have reviewed our{" "}
+          <a href="#">
+            <span className="link_span"> Privacy Policy </span>
+          </a>
+          and{" "}
+          <a href="#">
+            <span className="link_span"> Cookie Policy </span>
+          </a>
+          .
         </p>
       </div>
     </section>

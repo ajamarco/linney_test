@@ -3,8 +3,8 @@
   height: 0;
   width: 100%;
   padding: 0; /* remove any pre-existing padding, just in case */
-  padding-bottom: 75%; /* for a 4:3 aspect ratio */
-  background-position: center center;
+  padding-bottom: 60%; /* for a 4:3 aspect ratio */
+  background-position: top left;
   background-size: 100%;
   background-repeat: no-repeat;
 }
